@@ -6,7 +6,7 @@ Vagrant.configure(2) do |config|
       mrd1.vm.provider "virtualbox" do |vb|
         vb.name = "ubuntu-1"
         vb.gui = false
-        vb.memory = 1024
+        vb.memory = 4096
         vb.cpus = 2
       end
       mrd1.vm.provision "shell", path: "script2.sh"
