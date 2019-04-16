@@ -2,3 +2,6 @@
 .vagrant/machines/dokku/virtualbox/box_meta
 ubuntu-bionic-18.04-cloudimg-console.log
 .vagrant/machines/dokku/virtualbox/action_provision
+.vagrant/machines/dokku/virtualbox/action_set_name
+.vagrant/machines/dokku/virtualbox/id
+.vagrant/machines/dokku/virtualbox/index_uuid
