@@ -15,3 +15,11 @@ apt-get install wget -y
 echo "                  4. Install Dokku"
 wget https://raw.githubusercontent.com/dokku/dokku/v0.15.3/bootstrap.sh;
 DOKKU_TAG=v0.15.3 bash bootstrap.sh
+
+echo "                  5. Docker           "
+apt-get purge docker lxc-docker docker-engine docker.io
+apt-get install  curl  apt-transport-https ca-certificates software-properties-common
+curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add 
+add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable"
+apt-get update
+apt-get install docker-ce -y
