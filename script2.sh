@@ -24,3 +24,5 @@ add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu $(
 apt-get update
 apt-get install docker-ce -y
 
+echo "                  6. Dos2unix "
+apt-get install dos2unix -y

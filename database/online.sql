@@ -1,4 +1,5 @@
-﻿
+﻿CREATE DATABASE online
+GO
 
 /****** Object:  Table [dbo].[CumQuyen]    Script Date: 10/01/2018 11:30:27 ******/
 SET ANSI_NULLS ON
