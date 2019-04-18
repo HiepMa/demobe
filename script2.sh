@@ -26,3 +26,4 @@ apt-get install docker-ce -y
 
 echo "                  6. Dos2unix "
 apt-get install dos2unix -y
+cp /vagrant/online.sql /online.sql
