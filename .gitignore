@@ -9,3 +9,4 @@ ubuntu-bionic-18.04-cloudimg-console.log
 .vagrant/machines/dokku/virtualbox/creator_uid
 .vagrant/machines/dokku/virtualbox/synced_folders
 .vagrant/machines/dokku/virtualbox/vagrant_cwd
+.vagrant/machines/dokku2/virtualbox/vagrant_cwd
